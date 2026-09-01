@@ -1,0 +1,1 @@
+Open the website in the browser preview. Verify that the page displays the table describing the ten movies from the IMDb movie list. Also verify that when you click the links in the Movie column you are redirected to a page providing information about the selected movie.

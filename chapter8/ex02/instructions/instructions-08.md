@@ -1,0 +1,1 @@
+**Task 6**: Create a style rule for the `#fig1` through `#fig6` elements which are hovered, that rotates the elements to **0** degrees using the transform property, and applies a **2**-second transition to all properties of those figures.

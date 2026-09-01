@@ -1,0 +1,1 @@
+**Task 2**: Go to the _code7-3.html_ file and within the `head` section insert `link` elements linking the page to the _code7-3_forms.css_ and _code7-3_valid.css_ files. Insert a `script` element to load the _formsubmit.js_ JavaScript file.

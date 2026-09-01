@@ -1,0 +1,1 @@
+**Task 2**: Open the _code9-4.html_ file. There is a mistake in the `script` element in that the external JavaScript will be opened and run before the page is completely loaded. Fix the script element so that it loads the script file only once the page is loaded.

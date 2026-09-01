@@ -1,0 +1,1 @@
+**Task 3**: Go to the _debug4-4.css_ file in your browser. The first style rule adds two text shadows to the `h1` heading: a dark **brown** shadow and a **white** highlight. The shadows are not appearing in the web page. Locate and fix the syntax error in this style rule.

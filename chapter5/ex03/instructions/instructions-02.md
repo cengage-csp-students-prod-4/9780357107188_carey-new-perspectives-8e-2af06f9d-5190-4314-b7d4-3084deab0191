@@ -1,0 +1,1 @@
+**Task 2**: Go to the _code5-3.html_ file and within the `head` section insert `link` elements linking the page to the _code5-3_layout.css_ and _code5-3_print.css_ files. Use the _code5-3_layout.css_ file for screen output and the _code5-3_print.css_ file for printed output. Review the contents of the file.

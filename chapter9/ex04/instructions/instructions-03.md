@@ -1,0 +1,1 @@
+**Task 3**: Open the _debug9-4.js_ file. The slide images should update every **5** seconds. Fix the parameter values for the `setInterval()` method so that the `showImage()` function is run every **5** seconds.

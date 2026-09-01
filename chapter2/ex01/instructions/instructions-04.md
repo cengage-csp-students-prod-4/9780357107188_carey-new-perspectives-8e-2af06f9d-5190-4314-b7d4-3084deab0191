@@ -1,0 +1,1 @@
+**Task 4**: Create a style rule for `h1` and `h2` elements that applies the fonts **Helvetica**, **Arial**, **sans-serif** to the `font-family` property and sets the `letter-spacing` property to **0.1em**.

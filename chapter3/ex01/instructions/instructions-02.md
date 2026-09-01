@@ -1,0 +1,1 @@
+**Task 2**: Go to the _code3-1.html_ file in your editor. Within the `head` section insert a `link` element linking the page to the _code3-1_float.css_ style sheet file. Take some time to study the content of the page.

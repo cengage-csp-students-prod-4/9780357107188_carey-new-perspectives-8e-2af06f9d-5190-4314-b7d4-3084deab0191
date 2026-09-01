@@ -1,0 +1,1 @@
+**Task 5:** Create a style rule for the `blockquote` element that sets the `color` property to the value **hsl(30, 85%, 45%)** and sets the `font-size` property to **1.5em**. Also, create a style for the first letter of the `blockquote` element that sets the `font-size` property to **1.5em**.

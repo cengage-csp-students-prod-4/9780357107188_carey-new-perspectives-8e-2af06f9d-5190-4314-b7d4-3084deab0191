@@ -1,0 +1,1 @@
+**Task 2**: Go to the _code7-1.html_ file and within the `head` section insert a `link` element linking the page to the _code7-1_forms.css_ style sheet. Also insert a `script` element that opens the _formsubmit.js_ JavaScript file for handling the form submissions.

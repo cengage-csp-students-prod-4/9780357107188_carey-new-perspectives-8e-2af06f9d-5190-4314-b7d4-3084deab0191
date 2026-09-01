@@ -1,0 +1,1 @@
+**Task 5**: Repeat the previous step for the `#faceBack`, `#faceBottom`, `#faceLeft`, `#faceTop`, and `#faceRight` objects using the `moveBack`, `moveBottom`, `moveLeft`, `moveTop`, and `moveRight` animations.

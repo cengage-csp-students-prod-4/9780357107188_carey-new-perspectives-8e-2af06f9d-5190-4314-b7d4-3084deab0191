@@ -1,0 +1,1 @@
+Test both the _code5-4.html_ and _code5-4_debug.css_ files in a validator to confirm that both pass validation with no errors or warnings reported. View the _code5-4.html_ file in the browser preview under different screen widths and compare your page to _Figure 5–60_, confirming that your page layout matches the one shown in the figure.

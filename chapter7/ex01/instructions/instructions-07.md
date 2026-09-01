@@ -1,0 +1,1 @@
+**Task 7**: Add another `label` to the field set containing the text **Password** followed by a password input box with the id `password` and the field name **pwd**. Use the `for` attribute to link the `label` to the password input box.

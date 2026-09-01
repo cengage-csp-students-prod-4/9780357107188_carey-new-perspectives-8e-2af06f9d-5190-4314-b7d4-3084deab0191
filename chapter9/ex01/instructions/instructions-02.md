@@ -1,0 +1,1 @@
+**Task 2**: Open the _code9-1.html_ file and within the `head` section insert a `script` element connecting the page to the _clock9-1.js_ file. Add the `defer` attribute to the `script` element to defer the loading of the script until after the page contents load.

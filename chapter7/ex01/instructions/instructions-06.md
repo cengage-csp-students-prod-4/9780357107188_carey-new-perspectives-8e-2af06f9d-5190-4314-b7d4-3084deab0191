@@ -1,0 +1,1 @@
+**Task 6** Add a `label` to the field set containing the text **Username** followed by a text input box with the id `username` and the field name **user**. Use the `for` attribute to link the `label` to the input box control.

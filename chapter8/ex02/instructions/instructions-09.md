@@ -1,0 +1,1 @@
+Open the website in the browser preview and verify that when you hover your mouse pointer over any of the six images, the figures are rotated to 0 degrees, increased in size, moved on top of the other figure images, and the figure captions appear below the figures.

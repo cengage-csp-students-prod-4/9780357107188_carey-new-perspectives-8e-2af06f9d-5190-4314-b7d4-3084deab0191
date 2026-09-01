@@ -1,0 +1,1 @@
+**Task 3**: Go to the _code3-2_layout.css_ file. Create a style rule for the `header`, `footer`, `aside`, `article`, and `a` (hyperlink) elements to set the padding space to **10** pixels and add a **3-pixel** **gray** dashed outline.

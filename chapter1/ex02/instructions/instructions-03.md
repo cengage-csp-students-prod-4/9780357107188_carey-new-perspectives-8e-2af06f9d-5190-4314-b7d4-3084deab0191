@@ -1,0 +1,1 @@
+**Task 3**: Mark each stanza of the poem as a paragraph. Within each of the three stanzas, end each line with a line break using the `<br />` tag. For alternating lines within the three stanzas, insert three `&nbsp;` character entities to indent the text of those lines three spaces.

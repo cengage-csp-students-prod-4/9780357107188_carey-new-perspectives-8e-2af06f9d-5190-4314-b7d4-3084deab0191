@@ -1,0 +1,1 @@
+**Task 2**: Open the _code8-3.html_ file and within the `head` section insert a `link` element that links the page to the _code8-3_anim.css_ style sheet file. Take some time to review the contents of the file.

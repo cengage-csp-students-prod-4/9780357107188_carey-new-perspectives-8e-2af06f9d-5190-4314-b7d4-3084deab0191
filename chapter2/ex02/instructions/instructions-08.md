@@ -1,0 +1,1 @@
+Open _code2-2.html_ in the browser preview, verifying that the appearance resembles that shown in _Figure 2–55_. Verify that when you hover your mouse pointer over the list of sports websites, the text of the link is underlined.

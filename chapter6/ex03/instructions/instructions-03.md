@@ -1,0 +1,1 @@
+**Task 3**: Open the _code6-3_columns.css_ file and create a style rule for the `article` element to display the contents in a **3** column layout with a minimum column `width` of **350** pixels, separate the columns with a **5** pixel border in the ridge style and using the color value **rgb(231, 231, 231)**, and set the space between the columns to **20** pixels.

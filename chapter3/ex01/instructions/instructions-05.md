@@ -1,0 +1,1 @@
+**Task 4**: Open the file _code3-1_float.css_, and for all `img` elements create a style rule to set the height of the image to **3.3em**. Float all `img` elements on the right margin, but only when the right margin is first cleared of any floats. (Hint: `clear: right`).

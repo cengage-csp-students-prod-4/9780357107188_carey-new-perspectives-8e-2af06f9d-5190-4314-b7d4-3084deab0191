@@ -1,0 +1,1 @@
+View the page under different screen widths, verifying that the menu format changes as the screen width changes as shown in *Figure 5–57*.

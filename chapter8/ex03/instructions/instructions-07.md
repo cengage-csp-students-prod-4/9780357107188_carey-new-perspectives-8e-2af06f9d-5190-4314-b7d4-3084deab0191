@@ -1,0 +1,1 @@
+**Task 6**: After the cube is assembled you want it to rotate. Create a style rule that applies the `spinCube` animation to the `#cube` object, running the animation over a **3** second duration after a delay of **3** seconds. Use the linear timing function and have the animation loop without ending.

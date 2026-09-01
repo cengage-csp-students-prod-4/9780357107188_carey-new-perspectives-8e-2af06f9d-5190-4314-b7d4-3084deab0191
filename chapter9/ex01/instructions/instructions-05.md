@@ -1,0 +1,1 @@
+**Task 4**: Directly before the `runClock()` function insert a statement to run the `runClock()` function and then another statement that uses the `setInterval()` method to run the `runClock()` function every second.

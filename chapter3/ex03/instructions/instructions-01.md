@@ -1,0 +1,1 @@
+**Task 1**: Open the file _code3-3.html_ and _code3-3_scroll.css_ and in the comment section enter your **name** (First + Last) and the **date** (MM/DD/YYYY) into the `Author:` and `Date`: fields of each file.

@@ -1,0 +1,1 @@
+Open the website in the browser preview. When the page is free of errors, you should see a calendar for the current year with the current day highlighted on the page. 

@@ -1,0 +1,1 @@
+**Task 4**: When the page is initially opened you want it to display animation of the six faces of the cube being assembled. Create a style rule that applies the `moveFront` keyframe animation to the `#faceFront` object. Set the duration of the animation to **3** seconds and set the `animation- fill-mode` property to **forwards**.

@@ -1,0 +1,1 @@
+Open the website in the browser preview. Verify that when you enter invalid data in the CSC box, the box wiggles back and forth to indicate that the data is not valid. 

@@ -1,0 +1,1 @@
+View the page the browser preview to verify the contents match than shown in _Figure 7–61_. Test your payment form by trying to submit the form data with missing values or with incorrect values. Attempt to submit the form using the invalid credit card number **412345678901** and then with the valid card number **4123456789012**.

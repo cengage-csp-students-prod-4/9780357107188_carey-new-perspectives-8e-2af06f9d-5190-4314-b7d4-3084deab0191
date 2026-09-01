@@ -1,0 +1,1 @@
+**Task 5**: Open the _captions8-1.vtt_ file in your editor and create a cue with the `label` **Caption** going from **3** to **6** seconds of the video and displaying the text **A High Ollie** during that interval. Link the _captions8-1.vtt_ file to the video using the `track` element.

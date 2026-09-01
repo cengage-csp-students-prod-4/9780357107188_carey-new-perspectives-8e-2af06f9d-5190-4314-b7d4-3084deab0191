@@ -1,0 +1,1 @@
+Open the website in the browser preview. Verify that in the first 3 seconds the cube is assembled by moving the six faces into position and that after 3 seconds, the cube begins spinning to show all the faces of the cube.

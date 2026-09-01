@@ -1,0 +1,46 @@
+{
+  "name": "MindTap",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "cengage.cengage-companion",
+        "ritwickdey.LiveServer",
+        "ms-vsliveshare.vsliveshare",
+        "dbaeumer.vscode-eslint",
+        "htmlhint.vscode-htmlhint",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker"
+      ],
+
+      "settings": {
+        "workbench.colorTheme": "Default Dark Modern",
+        "settingsSync.enable": false,
+        "extensions.ignoreRecommendations": true,
+        "git.openRepositoryInParentFolders": "never",
+
+        "editor.formatOnSave": false,
+        "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+        "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+        "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+        "eslint.enable": false,
+        "eslint.useFlatConfig": true,
+        "eslint.nodePath": "/opt/global-lint/node_modules",
+        "eslint.options": {
+          "overrideConfigFile": "/opt/global-lint/eslint.config.js"
+        }
+      }
+    }
+  },
+  "forwardPorts": [3005],
+  "portsAttributes": {
+    "3005": {
+      "label": "cengage-companion",
+      "onAutoForward": "silent"
+    }
+  }
+}

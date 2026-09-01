@@ -1,0 +1,1 @@
+**Task 1**: Open the files _code3-1.html_ and _code3-1_float.css_ and in the comment section enter your **name** (First + Last) and the **date** (MM/DD/YYYY) into the `Author:` and `Date:` fields of the file.

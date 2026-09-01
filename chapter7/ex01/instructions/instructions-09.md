@@ -1,0 +1,1 @@
+Verify that the layout of the table resembles that shown in _Figure 7–59_ and that when you click each label, the control associated with that label becomes selected. Further verify that clicking the Login button submits the form for processing.

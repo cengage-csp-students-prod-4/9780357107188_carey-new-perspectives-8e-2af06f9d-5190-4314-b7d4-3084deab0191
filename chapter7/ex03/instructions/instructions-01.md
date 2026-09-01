@@ -1,0 +1,1 @@
+**Task 1**: Open the files _code7-3.html_ and _code7-3_valid.css_ and in the comment section enter your **name** (First + Last) and the **date** (MM/DD/YYYY) into the `Author:` and `Date:` fields of each file.

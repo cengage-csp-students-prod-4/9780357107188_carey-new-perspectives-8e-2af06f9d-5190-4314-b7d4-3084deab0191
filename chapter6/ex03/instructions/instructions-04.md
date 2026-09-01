@@ -1,0 +1,1 @@
+**Task 4**: Create a style rule for the `h1` element within the `article` element to span the heading across all columns, center the heading text, and set the font size to **3.5em** with a letter spacing of **0.15em**.

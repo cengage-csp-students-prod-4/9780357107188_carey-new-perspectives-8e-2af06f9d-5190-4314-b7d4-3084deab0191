@@ -1,0 +1,1 @@
+**Task 3**: Open to the _code4-3_cube.css_ file and create a style rule for the `h1` element that changes the font color to **white** and adds a text shadow with horizontal and vertical offsets of **0** pixels, a blur radius of **20** pixels and a shadow color value of **rgb(120, 85, 0)**.

@@ -1,0 +1,1 @@
+**Task 7**: Immediately after the `h1` tag create the form by enclosing the list of questions within opening and closing `<form>` tags. Give the form the `action` _submit-survey.php_ using the **post** method.

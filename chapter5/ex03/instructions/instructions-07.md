@@ -1,0 +1,1 @@
+To view the printed version of the page in your browser, launch the webpage in a new tab. Open the page in the print preview using the print hotkeys for your browser, or by right/shift clicking and selecting "print" option. Verify that URLs resemble those shown in _Figure 5–59_.

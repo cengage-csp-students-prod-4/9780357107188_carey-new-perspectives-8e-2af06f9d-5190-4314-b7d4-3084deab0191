@@ -1,0 +1,1 @@
+**Task 3**: While working in the the _code4-2_grad.css_ file, create a style rule for `h1` and `h2` elements that adds a **white** text shadow **2** pixels above and to the left of the text with a blur radius of **3** pixels.

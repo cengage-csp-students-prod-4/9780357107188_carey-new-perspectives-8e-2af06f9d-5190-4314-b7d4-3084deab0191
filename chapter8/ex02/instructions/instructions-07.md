@@ -1,0 +1,1 @@
+**Task 5**: Create a style rule for `figcaption` elements within the hovered `figure` element, that sets the font size to **1.2em**, and applies the change in font size over a **2**-second transition.

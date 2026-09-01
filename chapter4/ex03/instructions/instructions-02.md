@@ -1,0 +1,1 @@
+**Task 2**: Go to the _code4-3.html_ file and within the `head`section insert a `link` element that links the page to the _code4-3_cube.css_ style sheet file. Note that within the web page the five images are contained with a `div` element with the ID value `cube`. The images are given ID values of `img1` through `img5`.

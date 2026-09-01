@@ -1,0 +1,67 @@
+name: Delete Codespaces for Current Repository
+
+on:
+  push:
+    branches:
+      - template
+    paths:
+      - "**/devcontainer.json"
+  workflow_dispatch:
+
+jobs:
+  delete-codespaces:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Extract Org and Repo Name
+        id: repo_info
+        run: |
+          ORG_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f1)
+          REPO_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+          echo "ORG_NAME=$ORG_NAME" >> $GITHUB_ENV
+          echo "REPO_NAME=$REPO_NAME" >> $GITHUB_ENV
+
+      - name: List Contributors and Delete Their Codespaces for Current Repo
+        env:
+          GH_TOKEN: ${{ secrets.ORG_CODESPACE_PAT }}
+        run: |
+          echo "Listing contributors for the repository $ORG_NAME/$REPO_NAME..."
+
+          # Get the list of contributors, excluding specified users
+          contributors=$(gh api "/repos/$ORG_NAME/$REPO_NAME/contributors" --paginate --jq '.[].login' | grep -v -e "CengageCodespaceManager" -e "careeredsrvusr")
+
+          if [ -z "$contributors" ]; then
+            echo "No valid contributors found for this repository."
+          else
+            echo "Contributors found: $contributors"
+            echo "$contributors" | sort | uniq | while read -r contributor; do
+              echo "Processing contributor: $contributor"
+
+              # Fetch Codespaces for the contributor using --org flag
+              echo "Fetching Codespaces for $contributor in $ORG_NAME..."
+              gh codespace list --org "$ORG_NAME" --user "$contributor" --json name,repository || echo "Failed to fetch codespaces."
+
+              # List all Codespaces for the contributor in the current repo
+              codespaces=$(gh codespace list --org "$ORG_NAME" --user "$contributor" --json name,repository --jq ".[] | select(.repository == \"$ORG_NAME/$REPO_NAME\") | .name")
+
+              echo "Codespaces found for $contributor: $codespaces"
+
+              if [ -z "$codespaces" ]; then
+                echo "No codespaces found for $contributor in $ORG_NAME/$REPO_NAME."
+              else
+                echo "Deleting Codespaces for $contributor in $ORG_NAME/$REPO_NAME..."
+                echo "$codespaces" | while read -r codespace; do
+                  echo "Deleting Codespace: $codespace for user: $contributor"
+                  gh codespace delete -c "$codespace" -u "$contributor" -f --org "$ORG_NAME"
+                  if [ $? -eq 0 ]; then
+                    echo "Successfully deleted codespace $codespace for $contributor."
+                  else
+                    echo "Failed to delete codespace $codespace for $contributor."
+                  fi
+                done
+              fi
+            done
+          fi

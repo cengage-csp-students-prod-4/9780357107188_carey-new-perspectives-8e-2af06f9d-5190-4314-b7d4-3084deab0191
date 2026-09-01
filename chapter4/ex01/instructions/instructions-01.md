@@ -1,0 +1,1 @@
+**Task 1**: Open the file _code4-1.html_ and _code4-1_back.css_ and in the comment section enter your **name** (First + Last) and the **date** (MM/DD/YYYY) into the `Author:` and `Date:` fields of each file.

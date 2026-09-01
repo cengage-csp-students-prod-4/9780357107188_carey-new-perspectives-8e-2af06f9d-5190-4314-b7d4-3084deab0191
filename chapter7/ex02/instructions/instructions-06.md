@@ -1,0 +1,1 @@
+**Task 5**: Within the `div` element with the id `newRow` insert a range slider that ranges from **1** to **10** in steps of **1**, with a default value of **5**. Insert the text **very unlikely** before the range slider and the text **very likely** after the range slider. Assign the range slider the field name `q4`.

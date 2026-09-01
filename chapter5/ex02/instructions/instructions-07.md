@@ -1,0 +1,1 @@
+Open the file _code5-2.html_ in your browser. Test the layout under different screen widths, verifying that the div cards always fill up the page grid and that for a width small enough, the contents are laid out in a single column.

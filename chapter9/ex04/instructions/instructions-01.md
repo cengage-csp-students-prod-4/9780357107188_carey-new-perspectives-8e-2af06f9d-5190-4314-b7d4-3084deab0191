@@ -1,0 +1,1 @@
+**Task 1**: Open the files _code9-4.html_ and _debug9-4.js_ and in the comment section enter your **name** (First + Last) and the **date** (MM/DD/YYYY) into the `Author:` and `Date:` fields of each file.

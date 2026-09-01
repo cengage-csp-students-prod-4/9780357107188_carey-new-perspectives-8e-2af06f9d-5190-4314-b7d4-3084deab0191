@@ -1,0 +1,1 @@
+Open the website in the browser preview. Verify that the page shows the current date, weekday, and time, and that the clock automatically updates every second.

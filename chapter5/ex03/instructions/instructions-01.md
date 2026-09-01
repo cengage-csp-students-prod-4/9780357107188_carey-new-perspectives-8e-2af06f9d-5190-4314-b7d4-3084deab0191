@@ -1,0 +1,1 @@
+**Task 1**: Open the file _code5-3.html_ and _code5-3_print.css_ and in the comment section enter your **name** (First + Last) and the **date** (MM/DD/YYYY) into the `Author:` and `Date:` fields of each file.

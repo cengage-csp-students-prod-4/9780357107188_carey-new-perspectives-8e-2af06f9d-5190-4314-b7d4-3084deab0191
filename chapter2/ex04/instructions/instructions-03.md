@@ -1,0 +1,1 @@
+**Task 3**: Test the _code2-4.css_ file in the CSS validator at the W3C website or with another validator of your choice. Make a note of the errors reported as a guide to debugging the page. There are six syntax errors in the CSS file. Fix all six errors you discover and then submit your work.

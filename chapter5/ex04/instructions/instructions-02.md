@@ -1,0 +1,1 @@
+**Task 2**: Go to the*code5-4.html* file and within the `head` section insert `link` elements linking the page to the _code5-4_layout.css_ and _code5-4_debug.css_ files. Review the contents of the file.

@@ -1,0 +1,1 @@
+**Task 4**: The next style rule was written to add a box shadow to the `article` element that has an offset of **0** pixels in the horizontal and vertical directions, blur radius of **30** pixels and size value of **5** pixels. Fix the syntax errors in this style rule.

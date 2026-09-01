@@ -1,0 +1,1 @@
+**Task 2**: Open the _code10-1.html_ file and within the `head` section insert a `script` element connecting the page to the _gallery10-1.js_ file. Add the `defer` attribute to the `script` element to defer the loading of the script until after the contents of the page loads.

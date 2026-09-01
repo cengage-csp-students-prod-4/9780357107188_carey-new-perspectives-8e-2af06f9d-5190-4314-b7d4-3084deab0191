@@ -1,0 +1,1 @@
+**Task 2**: Go to the _code5-2.html_ file and within the `head` section insert `link` elements linking the page to the _code5-2_layout.css_ and _code5-2_flex.css_ files. Review the contents of each file.

@@ -1,0 +1,1 @@
+**Task 3**: Within the `page body` insert a `table` element and add a table header row group containing one row. Within that row insert a table heading cell that spans **8** columns and contains the text **Daily Crossword**.
