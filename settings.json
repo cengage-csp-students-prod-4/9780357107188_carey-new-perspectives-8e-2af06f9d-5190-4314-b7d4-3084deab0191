@@ -1,4 +1,7 @@
 {
-  "language": "html"
+  "language": "html",
+  "gui": false,
+  "shell": false,
+  "restrictedFiles": [],
+  "isFirstTimeSetup": false
 }
-
