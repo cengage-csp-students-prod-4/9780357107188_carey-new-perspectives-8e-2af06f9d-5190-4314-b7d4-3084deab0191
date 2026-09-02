@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/*.log": true,
+        "**/.*": true,
+        "**/*.csproj": true,
+        "**/bin": true,
+        "**/obj": true
+    },
+    "cSpell.words": [
+        "ciabbatta",
+        "Dolcini",
+        "mobilepanini",
+        "Panini",
+        "pecorino",
+        "Pollo",
+        "portobello",
+        "Salsiccia"
+    ]
+}
