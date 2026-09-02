@@ -1,0 +1,13 @@
+
+Status: PASSED!
+Check: 1
+Test: Mark each stanza of the poem as a paragraph.
+Reason: None
+Timestamp: 2026-09-02 04:09:43.997122
+
+Status: FAILED!
+Check: 2
+Test: Insert three `&nbsp;` character entities to indent the text of those lines three spaces
+Reason: Unable to find '&nbsp;&nbsp;&nbsp;' in the program. 
+Error : str - AssertionError
+Timestamp: 2026-09-02 04:09:43.997289
