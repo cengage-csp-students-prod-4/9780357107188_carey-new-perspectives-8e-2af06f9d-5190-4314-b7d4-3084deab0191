@@ -12,11 +12,11 @@
 
 */
 h1 {
-   font-size:3.5em;
-   line-height:0em;
+   font-size: 3.5em;
+   line-height: 0em;
 }
 
 h1, h2 {
    font-family: Helvetica, Arial, sans-serif;
-   letter-spacing:
+   letter-spacing: 0.1em;
 }
