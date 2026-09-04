@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Create a style rule for `h1` and `h2` elements that applies the fonts Helvetica, Arial, sans-serif to the `font-family` property and sets the `letter-spacing` property to 0.1em.
-Reason: Assertion failed: The 'letter-spacing' value was expected to be 5.6px (0.1em), found normal
-Error : AssertionError - The 'letter-spacing' value was expected to be 5.6px (0.1em), found normal
-Timestamp: 2026-09-04 23:23:41.445827
+Reason: None
+Timestamp: 2026-09-04 23:26:37.898200
