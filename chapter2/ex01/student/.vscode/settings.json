@@ -6,5 +6,9 @@
         "**/*.csproj": true,
         "**/bin": true,
         "**/obj": true
-    }
+    },
+    "cSpell.words": [
+        "Exup",
+        "O’Shaughnessy"
+    ]
 }
