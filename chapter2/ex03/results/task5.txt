@@ -1,0 +1,18 @@
+
+Status: PASSED!
+Check: 1
+Test: For all `h1` headings, set the font size to 3em.
+Reason: None
+Timestamp: 2026-09-06 21:04:00.310516
+
+Status: PASSED!
+Check: 2
+Test: For all `h1` headings, set the line height to 1em.
+Reason: None
+Timestamp: 2026-09-06 21:04:00.321801
+
+Status: PASSED!
+Check: 3
+Test: For all `h1` headings, set the bottom margin to 0px.
+Reason: None
+Timestamp: 2026-09-06 21:04:00.340699
