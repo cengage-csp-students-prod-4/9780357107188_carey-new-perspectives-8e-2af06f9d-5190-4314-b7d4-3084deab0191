@@ -28,3 +28,13 @@ article > h1 {
 font-size: 2em;
 font-family: cursive;
 }
+
+nav ul {
+list-style-type: none;
+line-height: 2em;
+}
+
+a {
+   color: ivory;
+   text-decoration: none;
+}
