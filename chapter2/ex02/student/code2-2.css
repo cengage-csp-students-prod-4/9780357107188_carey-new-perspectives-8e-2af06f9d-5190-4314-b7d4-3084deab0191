@@ -38,3 +38,7 @@ a {
    color: ivory;
    text-decoration: none;
 }
+
+a:hover {
+   text-decoration: underline;
+}
