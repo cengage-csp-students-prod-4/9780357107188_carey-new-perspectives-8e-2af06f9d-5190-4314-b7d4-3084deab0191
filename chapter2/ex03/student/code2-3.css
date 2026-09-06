@@ -12,6 +12,10 @@
 
 */
 html {
-   padding-left: 20px;
-   background-color: #e6e6fa;
+   padding-left: 3%;
+   background-color: hsla(40, 80%, 75%, 0.5);
+}
+
+h1, h2 {
+   font-family: Helvetica, Arial, sans-serif;
 }
