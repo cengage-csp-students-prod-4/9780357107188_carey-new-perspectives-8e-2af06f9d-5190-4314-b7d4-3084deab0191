@@ -24,3 +24,7 @@ background-color: black;
 text-align: center;
 }
 
+article > h1 {
+font-size: 2em;
+font-family: cursive;
+}
