@@ -38,3 +38,16 @@ img {
    margin-bottom: 10px;
    margin-left: 20px;
 }
+
+p {
+   font-size: 1.4em;
+   text-indent: 1em;
+}
+
+p:first-of-type {
+   text-indent: 0;
+}
+
+p:first-of-type::first-line {
+   font-variant: small-caps;
+}
