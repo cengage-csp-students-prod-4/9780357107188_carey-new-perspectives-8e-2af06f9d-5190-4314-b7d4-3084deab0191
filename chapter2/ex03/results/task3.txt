@@ -4,10 +4,11 @@ Check: 1
 Test: For the `html` element, set the left padding space to 30 pixels
 Reason: Assertion failed: Style rule not applied to html element, expected padding-left: 30px but found 20px
 Error : AssertionError - Style rule not applied to html element, expected padding-left: 30px but found 20px
-Timestamp: 2026-09-06 20:48:22.227641
+Timestamp: 2026-09-06 20:51:35.953075
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
 Test: For the `html` element, set the background color to the value hsla(40, 80%, 75%, 0.5).
-Reason: None
-Timestamp: 2026-09-06 20:48:22.239239
+Reason: Assertion failed: Style rule not applied to body element, expected background-color: rgba(242, 208, 140, 0.5) (hsla(40, 80%, 75%, 0.5)) but found rgba(230, 230, 250, 1)
+Error : AssertionError - Style rule not applied to body element, expected background-color: rgba(242, 208, 140, 0.5) (hsla(40, 80%, 75%, 0.5)) but found rgba(230, 230, 250, 1)
+Timestamp: 2026-09-06 20:51:35.959602
