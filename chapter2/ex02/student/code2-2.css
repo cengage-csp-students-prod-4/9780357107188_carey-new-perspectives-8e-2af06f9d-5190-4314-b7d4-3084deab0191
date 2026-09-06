@@ -11,3 +11,8 @@
    Filename: code2-2.css
 
 */
+h1 {
+text-align: center;
+font-family: Impact, sans-serif;
+font-size: 3em;
+}
