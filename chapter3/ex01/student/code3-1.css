@@ -30,7 +30,7 @@ p:first-of-type::first-letter {
    font-size: 4em;
    line-height: 0.8em;
    margin-right: 0.1em;
-   padding-right: 0.1em;
+   padding: 0.1em;
    padding-bottom: 0.2em;
 }
 
