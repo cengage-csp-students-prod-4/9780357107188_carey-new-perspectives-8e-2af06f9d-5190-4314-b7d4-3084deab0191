@@ -12,3 +12,8 @@
 
 */
 
+img {
+   height: 3.3em;
+   float: right;
+   clear: right;
+}
