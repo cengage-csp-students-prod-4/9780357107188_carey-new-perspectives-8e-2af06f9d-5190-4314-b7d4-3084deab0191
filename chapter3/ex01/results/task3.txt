@@ -1,0 +1,20 @@
+
+Status: PASSED!
+Check: 1
+Test: Create a drop cap insert a style rule for the selector `p:first-of-type`.
+Reason: None
+Timestamp: 2026-09-10 23:02:48.371554
+
+Status: FAILED!
+Check: 2
+Test: Set the font size to 4em and the line height to 0.8em for the drop cap.
+Reason: Assertion failed: The font size for the drop cap is not set to 4em, expected 112px (4em) but found 28px
+Error : AssertionError - The font size for the drop cap is not set to 4em, expected 112px (4em) but found 28px
+Timestamp: 2026-09-10 23:02:48.381707
+
+Status: FAILED!
+Check: 3
+Test: Set the size of the right margin and padding space to 0.1em and the bottom padding to 0.2em for the drop cap.
+Reason: Assertion failed: The right margin for the drop cap is not set to 0.1em, expected 11.2px (0.1em) but found 2.8px
+Error : AssertionError - The right margin for the drop cap is not set to 0.1em, expected 11.2px (0.1em) but found 2.8px
+Timestamp: 2026-09-10 23:02:48.394690
