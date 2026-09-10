@@ -24,3 +24,17 @@ h1 {
    font-size: 2.2em;
    text-align: center;
 }
+
+p:first-of-type::first-letter {
+   float: left;
+   font-size: 4em;
+   line-height: 0.8em;
+   margin-right: 0.1em;
+   padding-right: 0.1em;
+   padding-bottom: 0.2em;
+}
+
+p:first-of-type::first-letter {
+   font-variant: small-caps;
+   font-size: 1.4em;
+}
