@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: for all `img` elements create a style rule to set the height of the image to 3.3em.
+Reason: None
+Timestamp: 2026-09-10 23:16:22.925049
+
+Status: PASSED!
+Check: 2
+Test: Float all `img` elements on the right margin, but only when the right margin is first cleared of any floats.
+Reason: None
+Timestamp: 2026-09-10 23:16:23.045418
