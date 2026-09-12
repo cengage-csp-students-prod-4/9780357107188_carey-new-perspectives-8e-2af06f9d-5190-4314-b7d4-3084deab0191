@@ -26,3 +26,18 @@ section#container {
    overflow: auto;
 }
 
+div {
+   width: 300px;
+   height: 330px;
+   position: absolute;
+}
+
+#slide1 { left: 0px; }
+#slide2 { left: 300px; }
+#slide3 { left: 600px; }
+#slide4 { left: 900px; }
+#slide5 { left: 1200px; }
+#slide6 { left: 1500px; }
+#slide7 { left: 1800px; }
+#slide8 { left: 2100px; }
+#slide9 { left: 2400px; }
