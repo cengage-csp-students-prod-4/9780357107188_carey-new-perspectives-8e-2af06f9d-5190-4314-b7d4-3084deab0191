@@ -29,27 +29,13 @@ body {
 }
 
 /* Grid Areas */
-header {
-   grid-area: headers;
-}
-nav.horizontal {
-   grid-area: links;
-}
-nav.vertical {
-   grid-area: navs;
-}
-article {
-   grid-area: main;
-}
-section {
-   grid-area: coupons;
-}
-aside {
-   grid-area: sides;
-}
-footer {
-   grid-area: footers;
-}
+header {grid-area: headers;}
+nav.horizontal {grid-area: links;}
+nav.vertical {grid-area: navs;}
+article {grid-area: main;}
+section {grid-area: coupons;}
+aside {grid-area: sides;}
+footer {grid-area: footers;}
 
 /* Image Styles */
 header img {
