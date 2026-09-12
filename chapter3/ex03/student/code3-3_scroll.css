@@ -41,3 +41,8 @@ div {
 #slide7 { left: 1800px; }
 #slide8 { left: 2100px; }
 #slide9 { left: 2400px; }
+
+img {
+   display: block;
+   
+}
