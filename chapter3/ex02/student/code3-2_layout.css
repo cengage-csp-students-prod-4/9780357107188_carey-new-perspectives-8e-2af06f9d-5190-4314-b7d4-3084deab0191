@@ -25,7 +25,11 @@ body {
    margin-left: auto;
    margin-right: auto;
    display: grid;
-   grid-template-columns: repeat(6, 1fr);
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
    grid-template-rows: 50px 30px 1fr 1fr 100px;
    grid-gap: 15px;
+}
+
+header {
+   
 }
