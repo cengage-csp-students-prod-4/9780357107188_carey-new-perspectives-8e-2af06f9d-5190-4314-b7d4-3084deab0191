@@ -4,22 +4,25 @@ Check: 1
 Test: Have the `header` element span from gridline 1 to gridline -1.
 Reason: Assertion failed: The grid-column of the header is not set to 1 / -1, expected 1 / -1 but found 1 / 4
 Error : AssertionError - The grid-column of the header is not set to 1 / -1, expected 1 / -1 but found 1 / 4
-Timestamp: 2026-09-12 20:47:58.586502
+Timestamp: 2026-09-12 20:52:49.815502
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
 Test: Have the `article#intro` element span two rows and two columns.
-Reason: None
-Timestamp: 2026-09-12 20:47:58.603105
+Reason: Assertion failed: The grid-column of the article#intro is not set to span 2, expected span 2 but found 1 / 2
+Error : AssertionError - The grid-column of the article#intro is not set to span 2, expected span 2 but found 1 / 2
+Timestamp: 2026-09-12 20:52:49.839795
 
-Status: PASSED!
+Status: FAILED!
 Check: 3
 Test: Have the `article#main` element span two rows and three columns.
-Reason: None
-Timestamp: 2026-09-12 20:47:58.617020
+Reason: Assertion failed: The grid-column of the article#main is not set to span 3, expected span 3 but found 1 / 3
+Error : AssertionError - The grid-column of the article#main is not set to span 3, expected span 3 but found 1 / 3
+Timestamp: 2026-09-12 20:52:49.877335
 
-Status: PASSED!
+Status: FAILED!
 Check: 4
 Test: Have the `footer` element span two columns.
-Reason: None
-Timestamp: 2026-09-12 20:47:58.627404
+Reason: Assertion failed: The grid-column of the footer is not set to span 2, expected span 2 but found 1 / 2
+Error : AssertionError - The grid-column of the footer is not set to span 2, expected span 2 but found 1 / 2
+Timestamp: 2026-09-12 20:52:49.889454
