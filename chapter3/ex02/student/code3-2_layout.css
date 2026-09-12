@@ -27,7 +27,7 @@ body {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
    grid-template-rows: 50px 30px 1fr 1fr 100px;
-   grid-gap: 15px;
+   gap: 15px;
 }
 
 header {
