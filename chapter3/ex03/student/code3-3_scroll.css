@@ -12,3 +12,14 @@
 
 */
 
+section#container {
+   width: 900px;
+   height: 370px;
+   margin: 10px auto;
+   position: relative;
+   top: 30px;
+   left: 0px;
+   right: 0px;
+   outline: 2px solid brown;
+   overflow: auto;
+}
