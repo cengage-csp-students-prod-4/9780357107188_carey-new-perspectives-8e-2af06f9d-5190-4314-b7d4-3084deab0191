@@ -6,8 +6,8 @@
    Case Problem 1
    
    Layout styles for Slate and Pencil Tutoring
-   Author: 
-   Date:   
+   Author: Jackson Baker
+   Date:   09/20/2026
    
    Filename: sp_layout.css
 
@@ -15,24 +15,90 @@
 
 /* Window and Body Styles */
 
+html {
+   height: 100%;
+}
 
+body {
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   min-height: 100%
+}
+
+img {
+   display: block;
+}
 
 
 /* CSS Grid Styles */
 
 
+body {
+   display: grid;
+   grid-template-columns: repeat (4, 1fr);
+}
 
+img#logo {
+   grid-column: span 3;
+   width: 100%;
+}
 
+nav, footer {
+   grid-column: span 4;
+}
 
+aside {
+   grid-column: span 2;
+}
 
 /* Horizontal Navigation List Styles */
 
-
+nav li {
+   display: block;
+   width: 12.5%;
+   float: left
+}
 
 /* Section Styles */
 
+section img {
+   display: block;
+   width: 50%;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
 
+section p {
+   width: 70%;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 
 /* Customer Comment Styles */
 
+aside {
+   width: 75%;
+   padding-bottom: 30px
+}
+
+aside:nth-of-type(odd) {
+   justify-self: end;
+}
+aside img {
+   float: left;
+   width: 20%;
+}
+
+aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+}
