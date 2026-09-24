@@ -16,3 +16,6 @@ h1, h2 {
    text-shadow: -2px -2px 3px white;
 }
 
+p {
+   text-shadow: 2px 2px 3px red;
+}
