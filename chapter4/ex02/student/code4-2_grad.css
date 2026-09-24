@@ -19,3 +19,9 @@ h1, h2 {
 p {
    text-shadow: 2px 2px 3px red;
 }
+
+article {
+   box-shadow: inset 0px 0px 50px 20px black;
+   border-radius: 150px;
+   background: url(landscape.png) bottom right / 100% no-repeat, linear-gradient(165deg, black, rgb(0, 0, 200) 65%, rgb(211, 0, 55) 75%, orange 80%, yellow 82%);
+}
