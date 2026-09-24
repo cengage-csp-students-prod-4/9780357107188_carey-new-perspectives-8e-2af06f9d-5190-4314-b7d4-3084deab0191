@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Add a `figure` element to enclose the sonnet content
 Reason: None
-Timestamp: 2026-09-24 21:24:36.408712
+Timestamp: 2026-09-24 21:33:59.693773
 
 Status: PASSED!
 Check: 2
 Test: Insert a `figcaption` element containing the sonnet title
 Reason: None
-Timestamp: 2026-09-24 21:24:36.409878
+Timestamp: 2026-09-24 21:33:59.694759
