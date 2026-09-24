@@ -1,0 +1,30 @@
+
+Status: FAILED!
+Check: 1
+Test: Create a style rule for `h1` white text shadow 2 pixels above and to the left of the text with a blur radius of 3 pixels.
+Reason: Assertion failed: 'rgb(255, 255, 255) 2px 2px 3px' != 'rgb(255, 255, 255) -2px -2px 3px'
+- rgb(255, 255, 255) 2px 2px 3px
++ rgb(255, 255, 255) -2px -2px 3px
+?                    +    +
+ : Text shadow is not set as expected. Expected rgb(255, 255, 255) -2px -2px 3px, but found rgb(255, 255, 255) 2px 2px 3px
+Error : AssertionError - 'rgb(255, 255, 255) 2px 2px 3px' != 'rgb(255, 255, 255) -2px -2px 3px'
+- rgb(255, 255, 255) 2px 2px 3px
++ rgb(255, 255, 255) -2px -2px 3px
+?                    +    +
+ : Text shadow is not set as expected. Expected rgb(255, 255, 255) -2px -2px 3px, but found rgb(255, 255, 255) 2px 2px 3px
+Timestamp: 2026-09-24 21:44:55.505049
+
+Status: FAILED!
+Check: 2
+Test: Create a style rule for `h2` white text shadow 2 pixels above and to the left of the text with a blur radius of 3 pixels.
+Reason: Assertion failed: 'rgb(255, 255, 255) 2px 2px 3px' != 'rgb(255, 255, 255) -2px -2px 3px'
+- rgb(255, 255, 255) 2px 2px 3px
++ rgb(255, 255, 255) -2px -2px 3px
+?                    +    +
+ : Text shadow is not set as expected. Expected rgb(255, 255, 255) -2px -2px 3px, but found rgb(255, 255, 255) 2px 2px 3px
+Error : AssertionError - 'rgb(255, 255, 255) 2px 2px 3px' != 'rgb(255, 255, 255) -2px -2px 3px'
+- rgb(255, 255, 255) 2px 2px 3px
++ rgb(255, 255, 255) -2px -2px 3px
+?                    +    +
+ : Text shadow is not set as expected. Expected rgb(255, 255, 255) -2px -2px 3px, but found rgb(255, 255, 255) 2px 2px 3px
+Timestamp: 2026-09-24 21:44:55.520186
