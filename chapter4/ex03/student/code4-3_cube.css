@@ -32,7 +32,7 @@ img {
 }
 
 #img2 {
-   transform: rotate(90deg) translateZ(-150px);
+   transform: rotateX(90deg) translateZ(-150px);
 }
 
 #img3 {
