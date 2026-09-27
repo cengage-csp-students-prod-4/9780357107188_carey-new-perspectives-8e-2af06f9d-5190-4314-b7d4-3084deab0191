@@ -44,5 +44,5 @@ img {
 }
 
 #img5 {
-   translate: rotateX(-90deg) translateZ(-150px);
+   transform: rotateX(-90deg) translateZ(-150px);
 }
