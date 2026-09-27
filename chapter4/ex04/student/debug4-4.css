@@ -28,11 +28,11 @@ article {
 }
 
 article { 
-   background: radial-gradient(circle 20% 15%, white 5%
-                               rgba(255, 255, 128, 0.8) 10%
-                               rgba(80, 20, 0, 0.8) 75%
-                               rgba(128, 0, 0, 0.8))
+   background: radial-gradient(circle 20% 15%, white 5%,
+                               rgba(255, 255, 128, 0.8) 10%,
+                               rgba(80, 20, 0, 0.8) 75%,
+                               rgba(128, 0, 0, 0.8)),
       
-                               url(michelangelo.png) no-repeat bottom right 75%
+                               url(michelangelo.png) no-repeat bottom right 75%,
                                rgba(252, 250, 247);
 }
