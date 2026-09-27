@@ -16,3 +16,8 @@ h1 {
    color: white;
    text-shadow: 0px 0px 20px rgba(120, 85, 0);
 }
+
+div#cube {
+   perspective: 500px;
+   transform-style: preserve-3d;
+}
