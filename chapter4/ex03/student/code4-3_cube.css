@@ -11,3 +11,8 @@
    Filename: code4-3_cube.css
 
 */
+
+h1 {
+   color: white;
+   text-shadow: 0px 0px 20px rgba(120, 85, 0);
+}
