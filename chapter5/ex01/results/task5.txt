@@ -1,18 +1,25 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: Create a media query for devices with a minimum width of 501 that floats the `nav` element on the left page margin.
-Reason: None
-Timestamp: 2026-10-05 02:34:21.256066
+Reason: Assertion failed: 'none' != 'left'
+- none
++ left
+ : Float property not set as expected. Expected left, but found none
+Error : AssertionError - 'none' != 'left'
+- none
++ left
+ : Float property not set as expected. Expected left, but found none
+Timestamp: 2026-10-05 03:00:38.914182
 
 Status: PASSED!
 Check: 2
 Test: Create a media query for devices with a minimum width of 501 that sets the width of the `nav` element to 130 pixels.
 Reason: None
-Timestamp: 2026-10-05 02:34:21.266147
+Timestamp: 2026-10-05 03:00:38.923389
 
 Status: PASSED!
 Check: 3
 Test: Create a media query for devices with a minimum width of 501 that sets the height of the `nav` element to 400 pixels.
 Reason: None
-Timestamp: 2026-10-05 02:34:21.278896
+Timestamp: 2026-10-05 03:00:38.932290
