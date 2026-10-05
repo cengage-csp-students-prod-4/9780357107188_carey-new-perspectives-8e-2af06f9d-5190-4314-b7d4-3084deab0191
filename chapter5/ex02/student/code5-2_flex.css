@@ -12,7 +12,7 @@
 */
 
 section {
-   display: flex;
-   flex-flow: row-reverse wrap;
+   display: ;
+   flex-flow: row wrap-reverse;
 }
 
