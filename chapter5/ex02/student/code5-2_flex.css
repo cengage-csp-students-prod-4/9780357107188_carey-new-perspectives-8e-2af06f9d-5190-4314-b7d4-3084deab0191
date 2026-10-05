@@ -16,7 +16,7 @@ section {
    flex-flow: row wrap-reverse;
 }
 
-.card div {
+div.card {
    flex-grow: 1;
    flex-shrink: 1;
    flex-basis: 200px;
