@@ -3,23 +3,23 @@ Status: PASSED!
 Check: 1
 Test: Create a media query for devices with a minimum width of 710 pixels that sets the `float` property of the `nav` element to none, its `width` to 100% and its `height` to auto and the `nav` element margins to 0.
 Reason: None
-Timestamp: 2026-10-05 02:47:08.754932
-
-Status: FAILED!
-Check: 2
-Test: Create a media query for devices with a minimum width of 710 pixels that sets the `display` of `ul` elements of the `mainmenu` class to flex with the flex flow in the row direction with no wrapping; justify the contents of the flexbox in the center.
-Reason: Assertion failed: 'block' != 'flex'
-- block
-+ flex
- : Display property not set as expected. Expected flex, but found block
-Error : AssertionError - 'block' != 'flex'
-- block
-+ flex
- : Display property not set as expected. Expected flex, but found block
-Timestamp: 2026-10-05 02:47:08.771802
+Timestamp: 2026-10-05 02:51:32.708944
 
 Status: PASSED!
+Check: 2
+Test: Create a media query for devices with a minimum width of 710 pixels that sets the `display` of `ul` elements of the `mainmenu` class to flex with the flex flow in the row direction with no wrapping; justify the contents of the flexbox in the center.
+Reason: None
+Timestamp: 2026-10-05 02:51:32.737251
+
+Status: FAILED!
 Check: 3
 Test: Create a media query for devices with a minimum width of 710 pixels that sets the flex property of `li` elements with the `ul.mainmenu` element to have a growth factor of 0, a shrink factor of 1, and a basis value of 120 pixels.
-Reason: None
-Timestamp: 2026-10-05 02:47:08.790510
+Reason: Assertion failed: '0 1 auto' != '0 1 120px'
+- 0 1 auto
++ 0 1 120px
+ : Flex property not set as expected. Expected 0 1 120px, but found 0 1 auto
+Error : AssertionError - '0 1 auto' != '0 1 120px'
+- 0 1 auto
++ 0 1 120px
+ : Flex property not set as expected. Expected 0 1 120px, but found 0 1 auto
+Timestamp: 2026-10-05 02:51:32.752881
