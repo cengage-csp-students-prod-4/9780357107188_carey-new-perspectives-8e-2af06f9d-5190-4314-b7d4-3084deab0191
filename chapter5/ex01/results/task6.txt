@@ -3,7 +3,7 @@ Status: PASSED!
 Check: 1
 Test: Create a media query for devices with a minimum width of 710 pixels that sets the `float` property of the `nav` element to none, its `width` to 100% and its `height` to auto and the `nav` element margins to 0.
 Reason: None
-Timestamp: 2026-10-05 02:45:31.579371
+Timestamp: 2026-10-05 02:47:08.754932
 
 Status: FAILED!
 Check: 2
@@ -16,10 +16,10 @@ Error : AssertionError - 'block' != 'flex'
 - block
 + flex
  : Display property not set as expected. Expected flex, but found block
-Timestamp: 2026-10-05 02:45:31.593752
+Timestamp: 2026-10-05 02:47:08.771802
 
 Status: PASSED!
 Check: 3
 Test: Create a media query for devices with a minimum width of 710 pixels that sets the flex property of `li` elements with the `ul.mainmenu` element to have a growth factor of 0, a shrink factor of 1, and a basis value of 120 pixels.
 Reason: None
-Timestamp: 2026-10-05 02:45:31.609282
+Timestamp: 2026-10-05 02:47:08.790510
