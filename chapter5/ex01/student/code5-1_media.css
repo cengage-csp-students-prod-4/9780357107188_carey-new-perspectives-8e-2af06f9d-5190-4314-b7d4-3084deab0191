@@ -24,6 +24,7 @@
    nav {
       float: left;
       width: 130px;
-      height: 4
+      height: 400px;
+      margin: 30px 25px 0px 0px;
    }
 }
