@@ -1,65 +1,30 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Set the growth and shrink rate of the `div` elements of the card class to 1 and 1.
-Reason: Assertion failed: '0 1 auto' != '1 1 200px'
-- 0 1 auto
-+ 1 1 200px
- : Flex property not set as expected. Expected 1 1 200px, but found 0 1 auto
-Error : AssertionError - '0 1 auto' != '1 1 200px'
-- 0 1 auto
-+ 1 1 200px
- : Flex property not set as expected. Expected 1 1 200px, but found 0 1 auto
-Timestamp: 2026-10-05 03:39:39.015868
+Reason: None
+Timestamp: 2026-10-05 03:47:33.736700
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Display each `div` element of the `card` class as a flexbox.
-Reason: Assertion failed: 'block' != 'flex'
-- block
-+ flex
- : Display property not set as expected. Expected flex, but found block
-Error : AssertionError - 'block' != 'flex'
-- block
-+ flex
- : Display property not set as expected. Expected flex, but found block
-Timestamp: 2026-10-05 03:39:39.032593
+Reason: None
+Timestamp: 2026-10-05 03:47:33.808004
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Lay out the items in column order with no wrapping.
-Reason: Assertion failed: 'row' != 'column'
-- row
-+ column
- : Flex direction property not set as expected. Expected column, but found row
-Error : AssertionError - 'row' != 'column'
-- row
-+ column
- : Flex direction property not set as expected. Expected column, but found row
-Timestamp: 2026-10-05 03:39:39.047688
+Reason: None
+Timestamp: 2026-10-05 03:47:33.860592
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Justify the content of the items within the `flexbox` with space between.
-Reason: Assertion failed: 'normal' != 'space-between'
-- normal
-+ space-between
- : Justify content property not set as expected. Expected space-between, but found normal
-Error : AssertionError - 'normal' != 'space-between'
-- normal
-+ space-between
- : Justify content property not set as expected. Expected space-between, but found normal
-Timestamp: 2026-10-05 03:39:39.061817
+Reason: None
+Timestamp: 2026-10-05 03:47:33.908963
 
-Status: FAILED!
+Status: PASSED!
 Check: 5
 Test: Center each of the items with respect to the cross axis.
-Reason: Assertion failed: 'normal' != 'center'
-- normal
-+ center
- : Align items property not set as expected. Expected center, but found normal
-Error : AssertionError - 'normal' != 'center'
-- normal
-+ center
- : Align items property not set as expected. Expected center, but found normal
-Timestamp: 2026-10-05 03:39:39.077771
+Reason: None
+Timestamp: 2026-10-05 03:47:33.959269
