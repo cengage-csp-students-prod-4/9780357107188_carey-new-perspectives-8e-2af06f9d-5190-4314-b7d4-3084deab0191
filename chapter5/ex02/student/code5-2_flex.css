@@ -16,3 +16,13 @@ section {
    flex-flow: row wrap-reverse;
 }
 
+.card div {
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 200px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
