@@ -1,14 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Insert a `link` element linking the page to the code5-3_print.css file.
-Reason: Assertion failed: Link element not found for code5-3_print.css.
-Error : AssertionError - Link element not found for code5-3_print.css.
-Timestamp: 2026-10-06 23:04:45.521026
+Reason: None
+Timestamp: 2026-10-06 23:05:37.715790
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Insert a `link` element linking the page to the code5-3_layout.css file.
-Reason: Assertion failed: Link element not found for code5-3_layout.css.
-Error : AssertionError - Link element not found for code5-3_layout.css.
-Timestamp: 2026-10-06 23:04:45.522064
+Reason: None
+Timestamp: 2026-10-06 23:05:37.718180
