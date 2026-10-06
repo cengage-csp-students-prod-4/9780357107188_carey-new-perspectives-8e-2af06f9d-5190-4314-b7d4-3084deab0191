@@ -15,3 +15,15 @@
    size: 8.5in 11in;
    margin: 1in;
 }
+
+nav a, ol a {
+   text-decoration: none;
+}
+
+nav, ol {
+   page-break-inside: avoid;
+}
+
+nav li, ol li {
+   line-height: 0.5in;
+}
