@@ -1,13 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Set the line height of every `li` element nested within a `nav` and `ol` element to 0.3 inches.
-Reason: Unable to find 'line-height: 0.3in' in the program.
-Error : str - AssertionError
-Timestamp: 2026-10-06 23:13:31.371654
+Reason: 'line-height: 0.3in' was found in the program output.None
+Timestamp: 2026-10-06 23:15:46.427572
 
 Status: PASSED!
 Check: 2
 Test: Remove all underlining from hypertext links and prevent the browser from inserting page breaks within any `nav` element.
 Reason: 'page-break-inside: avoid' was found in the program output.None
-Timestamp: 2026-10-06 23:13:31.372062
+Timestamp: 2026-10-06 23:15:46.427769
