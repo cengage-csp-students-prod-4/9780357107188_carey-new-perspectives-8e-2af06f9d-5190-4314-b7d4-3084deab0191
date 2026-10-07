@@ -4,8 +4,8 @@
    Tutorial 5
    Review Assignment
    
-   Author:   
-   Date:     
+   Author:   Jackson Baker
+   Date:     10/06/2026
       
    Filename: tf_styles4.css
 
@@ -24,16 +24,81 @@
 /* General Flex Styles */
 
 
+body {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
 
+#left {
+   flex-grow: 1;
+   flex-shrink: 8;
+   flex-basis: 130px;
+}
 
+#right {
+   flex-grow: 8;
+   flex-shrink: 1;
+   flex-basis: 351px;
+}
 
+section#tips {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+article {
+   flex-grow: 2;
+   flex-shrink: 1;
+   flex-basis: 351px;
+}
+
+section#tips aside {
+   flex-grow: 1;
+   flex-shrink: 2;
+   flex-basis: 250px;
+}
+
+nav.horizontal ul {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
 
 /* ===============================
 	Mobile Devices: 0 to 480px 
    ===============================
 */
 	
+@media (max-width: 480px) {
+   nav.vertical ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 240px;
+   }
 
+#left {
+   order: 99;
+}
+
+body > footer {
+   order: 100;
+}
+
+a#navicon {
+   display: block;
+}
+
+nav.horizontal ul {
+   display: none;
+}
+
+a#navicon:hover+ul, nav.horizontal ul:hover {
+   display: block;
+}
+}
 
 
 
@@ -43,4 +108,8 @@
 */
 
 
-
+@media screen and (min-width: 481px) {
+   nav.horizontal ul {
+      height: 160px;
+   }
+}
