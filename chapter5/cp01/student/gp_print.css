@@ -4,8 +4,8 @@
    Tutorial 5
    Case Problem 1
    
-   Author:   
-   Date:     
+   Author:   Jackson Baker
+   Date:     10/07/2026
    
    Filename: gp_print.css
 
@@ -15,5 +15,31 @@
 */
 
 /* Hidden Objects */
-
+nav, footer, article {
+   display: none;
+}
 /* Comic Book Sheet Styles */
+
+section#sheet {
+   width: 6in;
+   margin-top: 0in;
+   margin-bottom: 0in;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+img.size1 {
+   width: 5in;
+}
+
+img.size2 {
+   width: 3in;
+}
+
+img.size3 {
+   width: 2in;
+}
+
+img.size4 {
+   width: 1.5in;
+}
