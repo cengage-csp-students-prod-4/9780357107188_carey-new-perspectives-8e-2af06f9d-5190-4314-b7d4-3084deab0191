@@ -17,9 +17,13 @@
 
 html {
    background-image: url(cf_back1.png);
-   background-position: center;
+   background-repeat: no-repeat;
    background-attachment: fixed;
+   background-position: center center;
    background-size: cover;
+   margin: 0;
+   padding: 0;
+   min-height: 100%;
 }
 
 /* Body Styles */
@@ -30,7 +34,7 @@ body {
 
 /* Body Header Styles */
 
-header {
+body header {
    background-color: rgba(51, 51, 51, 0.5);
 }
 
@@ -62,7 +66,10 @@ section aside h1 {
 
 div#cube {
    position: relative;
-   margin: 180px auto 150px auto;
+   margin-top: 180px;
+   margin-bottom: 150px;
+   margin-left: auto;
+   margin-right: auto;
    width: 400px;
    height: 400px;
    perspective: 450px;
