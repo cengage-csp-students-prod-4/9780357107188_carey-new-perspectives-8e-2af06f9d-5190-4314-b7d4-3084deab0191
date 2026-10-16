@@ -3,48 +3,48 @@ Status: PASSED!
 Check: 1
 Test: Below the `body header`, create a table using the `table` element.
 Reason: None
-Timestamp: 2026-10-16 21:51:51.714052
+Timestamp: 2026-10-16 21:57:17.342853
 
 Status: FAILED!
 Check: 2
 Test: Insert a `caption` containing the text February 5, 2021.
 Reason: Assertion failed: 
 Error : AssertionError - 
-Timestamp: 2026-10-16 21:51:51.797172
+Timestamp: 2026-10-16 21:57:17.373142
 
 Status: PASSED!
 Check: 3
 Test: Insert a column group containing a column with the id `firstCol` and a column with the id `hourCols` that spans 9 columns.
 Reason: None
-Timestamp: 2026-10-16 21:51:51.819154
+Timestamp: 2026-10-16 21:57:17.408853
 
 Status: PASSED!
 Check: 4
 Test: Insert a table head group that contains a single row with `th` elements containing the text Conference Room and the times 8:00am through 4:00pm in one-hour increments.
 Reason: None
-Timestamp: 2026-10-16 21:51:51.879910
+Timestamp: 2026-10-16 21:57:17.482019
 
 Status: FAILED!
 Check: 5
 Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
 Reason: Assertion failed: False is not true : Expected 'Friends of the Library Meeting' in first row
 Error : AssertionError - False is not true : Expected 'Friends of the Library Meeting' in first row
-Timestamp: 2026-10-16 21:51:51.902231
+Timestamp: 2026-10-16 21:57:17.519938
 
 Status: PASSED!
 Check: 6
 Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
 Reason: None
-Timestamp: 2026-10-16 21:51:51.943559
+Timestamp: 2026-10-16 21:57:17.581851
 
 Status: PASSED!
 Check: 7
 Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
 Reason: None
-Timestamp: 2026-10-16 21:51:51.994929
+Timestamp: 2026-10-16 21:57:17.628827
 
 Status: PASSED!
 Check: 8
 Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
 Reason: None
-Timestamp: 2026-10-16 21:51:52.019235
+Timestamp: 2026-10-16 21:57:17.670689

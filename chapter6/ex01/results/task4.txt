@@ -3,28 +3,28 @@ Status: PASSED!
 Check: 1
 Test: For the `table` element add a 20 pixel grooved gray border and collapse the table borders.
 Reason: None
-Timestamp: 2026-10-16 21:49:50.054253
+Timestamp: 2026-10-16 21:57:18.420313
 
 Status: PASSED!
 Check: 2
 Test: For the `th` and `td` elements add a 1 pixel solid gray border, set the padding space to 5 pixels, and align the cell content with the top-left corner of the cell.
 Reason: None
-Timestamp: 2026-10-16 21:49:50.105624
+Timestamp: 2026-10-16 21:57:18.478433
 
 Status: PASSED!
 Check: 3
 Test: For the `caption` element, set the display the caption at the top-left of the table and set the font size of the caption text to 1.5em.
 Reason: None
-Timestamp: 2026-10-16 21:49:50.129338
+Timestamp: 2026-10-16 21:57:18.507665
 
 Status: PASSED!
 Check: 4
 Test: For `col` element with the id `firstCol`, change the background color to yellow and set the column width to 150 pixels.
 Reason: None
-Timestamp: 2026-10-16 21:49:50.159934
+Timestamp: 2026-10-16 21:57:18.529028
 
 Status: PASSED!
 Check: 5
 Test: Change the background color of the `thead` element to aqua.
 Reason: None
-Timestamp: 2026-10-16 21:49:50.171230
+Timestamp: 2026-10-16 21:57:18.539572
