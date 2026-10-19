@@ -1,0 +1,13 @@
+
+Status: FAILED!
+Check: 1
+Test: Create a style rule for paragraphs within the `article`element to set the minimum size of widows and orphans to 4 lines.
+Reason: Assertion failed: '2' != '4'
+- 2
++ 4
+ : The `p` element does not have the correct `orphans` property.
+Error : AssertionError - '2' != '4'
+- 2
++ 4
+ : The `p` element does not have the correct `orphans` property.
+Timestamp: 2026-10-19 21:07:41.354788
