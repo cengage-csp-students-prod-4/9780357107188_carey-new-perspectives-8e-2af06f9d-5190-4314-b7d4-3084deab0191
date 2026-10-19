@@ -24,7 +24,7 @@ article h1 {
    letter-spacing: 0.15em;
 }
 
-p article {
+article > p {
    widows: 4;
    orphans: 4;
 }
