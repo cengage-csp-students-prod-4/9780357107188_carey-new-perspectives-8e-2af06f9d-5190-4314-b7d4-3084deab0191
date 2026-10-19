@@ -10,4 +10,11 @@
    Filename: code6-3_columns.css
 
 */
+article {
+   column-count: 3;
+   column-width: 350px;
+   column-rule: 5px ridge rgb(231, 231, 231);
+   column-gap: 20px;
+}
+
 
