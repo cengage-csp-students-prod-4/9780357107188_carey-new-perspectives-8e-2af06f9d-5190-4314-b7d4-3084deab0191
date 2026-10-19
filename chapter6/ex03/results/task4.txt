@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Create the style rule for the `h1` element within the `article` element.
+Reason: None
+Timestamp: 2026-10-19 21:10:01.641064
