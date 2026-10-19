@@ -17,4 +17,11 @@ article {
    column-gap: 20px;
 }
 
+article h1 {
+   column-span: all;
+   text-align: center;
+   font-size: 3.5em;
+   letter-spacing: 0.15em;
+}
+
 
