@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Add another `label` to the field set containing the text 'Password' followed by a password input box with the id `password` and the field name'pwd'. Use the `for` attribute to link the `label` to the password input box.
+Reason: None
+Timestamp: 2026-10-25 23:44:58.788817
