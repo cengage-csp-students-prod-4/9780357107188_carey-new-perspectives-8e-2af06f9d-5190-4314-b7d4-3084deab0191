@@ -3,21 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Add the `select` element with the proper attributes to the form.
 Reason: None
-Timestamp: 2026-10-25 23:33:11.144159
+Timestamp: 2026-10-25 23:38:26.441423
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Add the `option` elements with the proper attributes to the `select` element.
-Reason: Assertion failed: 'Administrator' != 'administrator'
-- Administrator
-? ^
-+ administrator
-? ^
-
-Error : AssertionError - 'Administrator' != 'administrator'
-- Administrator
-? ^
-+ administrator
-? ^
-
-Timestamp: 2026-10-25 23:33:11.145098
+Reason: None
+Timestamp: 2026-10-25 23:38:26.442163
