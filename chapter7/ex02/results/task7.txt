@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test:  Immediately after the `h1` tag create the form by enclosing the list of questions within opening and closing `<form>` tags.
+Reason: None
+Timestamp: 2026-10-26 00:17:29.970215
+
+Status: PASSED!
+Check: 2
+Test: Give the form the `action` submit-survey.php using the 'post' method.
+Reason: None
+Timestamp: 2026-10-26 00:17:29.972211
