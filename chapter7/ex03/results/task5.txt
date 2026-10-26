@@ -1,0 +1,13 @@
+
+Status: PASSED!
+Check: 1
+Test: Within the `cardmonth` selection list add options for each month.
+Reason: None
+Timestamp: 2026-10-26 20:10:15.251570
+
+Status: FAILED!
+Check: 2
+Test: Make the selection list required.
+Reason: Assertion failed: None is not true : The selection list should be required.
+Error : AssertionError - None is not true : The selection list should be required.
+Timestamp: 2026-10-26 20:10:15.262206
