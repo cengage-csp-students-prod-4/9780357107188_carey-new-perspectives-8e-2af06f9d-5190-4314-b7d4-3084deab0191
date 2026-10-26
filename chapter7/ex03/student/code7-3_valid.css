@@ -10,3 +10,12 @@
    Filename: code7-3_valid.css
 
 */
+input:focus, select:focus {
+   background-color: yellow;
+}
+
+input:invalid {
+   color: red;
+   border: 1px solid red;
+   box-shadow: 0px 0px 5px red;
+}
