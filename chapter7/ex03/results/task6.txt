@@ -1,0 +1,13 @@
+
+Status: FAILED!
+Check: 1
+Test: Within the `cardyear` selection list add options for each year.
+Reason: Assertion failed: '2020 (01)' != '2020'
+- 2020 (01)
++ 2020
+ : Expected '2020' as the second option, found: 2020 (01)
+Error : AssertionError - '2020 (01)' != '2020'
+- 2020 (01)
++ 2020
+ : Expected '2020' as the second option, found: 2020 (01)
+Timestamp: 2026-10-26 20:14:01.340687
