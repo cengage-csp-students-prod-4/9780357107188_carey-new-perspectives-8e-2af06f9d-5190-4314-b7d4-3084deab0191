@@ -7,8 +7,8 @@
       Case Problem 1
 
       CGIP Registration Form
-      Author: 
-      Date:   
+      Author: Jackson Baker
+      Date:   10/26/2026
 
       Filename:   cg_register.html
 
@@ -19,6 +19,10 @@
    <title>CGIP Registration Form</title>
    <link href="cg_base.css" rel="stylesheet" />
    <link href="cg_styles.css" rel="stylesheet" />
+   <link href="cg_forms.css" rel="stylesheet" />
+   <link href="cg_validate.css" rel="stylesheet" />
+   <script src="cg_script.js"></script>
+
 </head>
 
 <body>
@@ -50,7 +54,58 @@
    <section>
       <h1>Conference Registration Form</h1>
       <p>Required Item (*)</p>
-      
+      <form action="http://www.example.com/cg/register" method="post">
+
+         <label for="titleBox">Title</label>
+         <input type="text" name="title" id="titleBox" list="titlelist">
+
+         <label for="fnBox">First Name*</label>
+         <input type="text" name="firstName" id="fnBox" required>
+
+         <label for="lnBox">Last Name*</label>
+         <input type="text" name="lastName" id="lnBox" required>
+
+         <label for="addBox">Address*</label>
+         <textarea name="address" id="addBox" required></textarea>
+
+         <label for="groupBox">Company or University</label>
+         <input type="text" name="group" id="groupBox">
+
+         <label for="mailBox">E-mail*</label>
+         <input type="email" name="email" id="mailBox" required>
+
+         <label for="phoneBox">Phone Number*</label>
+         <input type="tel" name="phoneNumber" id="phoneBox" placeholder="(nnn) nnn-nnn" required>
+
+         <label for="idBox">ACGIP Membership Number</label>
+         <input type="text" name="acgipID" id="idBox" placeholder="acgip-nnnnnn">
+
+         <datalist id="titlelist">
+            <option value="Mr."></option>
+            <option value="Mrs."></option>
+            <option value="Ms."></option>
+            <option value="Prof."></option>
+            <option value="Dr."></option>
+            <option value="Assist. Prof."></option>
+            <option value="Assoc. Prof."></option>
+         </datalist>
+         <label id="phoneBox">Phone Number</label>
+         <input type="tel" name="phoneNumber" id="phoneBox" placeholder="phone" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required>
+
+         <label for="idBox">ACGIIP Membership Number</label>
+         <input type="text" name="acgipID" id="idBox" placeholder="acgip" pattern="^acgip\-\d{6}$" required>
+         <label for="regList">Registration Category</label>
+         <select id="regList" name="regTarget">
+            <option value="member">ACGIIP Member ($695)</option>
+            <option value="nonmember">Non-Member ($795)</option>
+            <option value="student">Student ($310)</option>
+            <option value="poster">Poster ($95)</option>
+            <option value="guest">Guest ($35)</option>
+         </select>
+         <p>
+            <input type="submit" value="continue">
+         </p>
+      </form>
    </section>
    
    <aside>
