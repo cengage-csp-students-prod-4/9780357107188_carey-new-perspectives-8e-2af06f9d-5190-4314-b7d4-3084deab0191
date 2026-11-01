@@ -7,8 +7,8 @@
       Review Assignment
 
       Red Ball Pizza Customer Information
-      Author: 
-      Date:   
+      Author: Jackson Baker
+      Date:   11/1/2026
 
       Filename:   rb_customer.html
 
@@ -19,6 +19,9 @@
    <title>Red Ball Pizza Customer Form</title>
    <link href="rb_base.css" rel="stylesheet" />
    <link href="rb_styles2.css" rel="stylesheet" />
+   <link href="rb_forms2.css" rel="stylesheet" />
+   <link href="rb_validate.css" rel="stylesheet" />
+   <script src="rb_formsubmit2.js"></script>
 </head>
 
 <body>
@@ -44,6 +47,38 @@
          values are marked by an asterisk (*). If you
          want to place your order over the phone, call us at
          <a href="tel:+13865557499">(386) 555-7499</a>.</p>
+         <form action="http://www.example.com/redball/customer" method="post">
+            <div>
+               <label for="nameBox">Name*</label>
+               <input type="text" id="nameBox" name="custName" placeholder="First and Last Name" required>
+            </div>
+            <div>
+               <label for="phoneBox">Phone*</label>
+               <input type="tel" id="phoneBox" name="custPhone" required pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+            </div>
+            <div>
+               <input type="radio" id="delivery" name="orderType" value="delivery" checked>
+               <label for="delivery">Delivery</label>
+               <input type="radio" id="pickup" name="orderType" value="pickup">
+               <label for="pickup">Pickup</label>
+            </div>
+            <fieldset id="deliveryInfo">
+               <legend>Delivery Options</legend>
+               <textarea id="addressBox" name="delAddress" placeholder="Enter Delivery Address"></textarea>
+               <label for="delBox">Delivery Time (leave blank for earliest delivery)</label>
+               <input type="time" id="delBox" name="delTime">
+            </fieldset>
+            <fieldset id="pickupInfo">
+            <legend>Pickup Options</legend>
+            <label for="pickupBox">Pickup Time (leave blank for earliest pickup)</label>
+            <input type="time" id="pickupBox" name="pickupTime" disabled>
+            </fieldset>
+
+            <div>
+               <button type="submit">Begin Building Your Order</button>
+            </div>
+
+         </form>
          
          
    </section>
