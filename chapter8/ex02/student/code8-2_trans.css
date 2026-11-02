@@ -76,3 +76,9 @@ figure:hover img {
    filter: drop-shadow(10px 10px 20px black) grayscale(0);
    transition: filter 2s;
 }
+
+
+figure:hover figcaption {
+   font-size: 1.2em;
+   transition: font-size 2s;
+}
