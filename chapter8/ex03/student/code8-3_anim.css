@@ -62,3 +62,8 @@ div#cube img {
 	0% {transform: rotateX(0deg) translate3d(0px, 0px, 0px);}	
 	100% {transform: rotateX(90deg) translate3d(0px, 0px, 150px);}		
 }
+
+@keyframes spinCube {
+	0% {transform:rotateX(24deg) rotateY(40deg);}
+	50% {transform:rotateX(204deg) rotateY(220deg);}
+	100% {transform:rotateX(384deg) rotateY(400deg);}
