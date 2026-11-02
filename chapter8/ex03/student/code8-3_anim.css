@@ -71,3 +71,21 @@ div#cube img {
 #faceFront {
 	animation: moveFront 3s forwards;
 }
+
+#faceBack {
+	animation: moveBack 3s forwards;
+}
+
+#faceBottom {
+	animation: moveBottom 3s forwards;
+}
+
+#faceLeft {
+	animation: moveLeft 3s forwards;
+}
+#faceTop {
+	animation: moveTop 3s forwards;
+}
+#faceRight {
+	animation: moveRight 3s forwards;
+}
