@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: Apply the `spinCube` animation to the `#cube` object
+Reason: Assertion failed: 'spinCube' not found in '3s linear 3s infinite' : Unable to find "spinCube" in the animation.
+Error : AssertionError - 'spinCube' not found in '3s linear 3s infinite' : Unable to find "spinCube" in the animation.
+Timestamp: 2026-11-02 20:44:31.618411
