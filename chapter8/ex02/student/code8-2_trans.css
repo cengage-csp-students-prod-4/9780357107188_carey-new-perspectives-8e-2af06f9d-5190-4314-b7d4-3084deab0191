@@ -71,3 +71,8 @@ figure:hover {
    transition: width 2s;
 }
 
+figure:hover img {
+   width: 100%;
+   filter: drop-shadow(10px 10px 20px black) grayscale(0);
+   transition: filter 2s;
+}
