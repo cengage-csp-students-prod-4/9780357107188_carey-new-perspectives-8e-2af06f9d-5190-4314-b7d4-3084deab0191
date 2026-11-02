@@ -10,4 +10,8 @@
    Filename: code8-1_video.css
 
 */
-
+video {
+   display: block;
+   width: 75%;
+   margin: 1
+}
