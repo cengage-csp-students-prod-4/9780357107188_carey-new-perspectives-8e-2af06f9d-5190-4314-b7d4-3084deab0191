@@ -22,11 +22,11 @@
 }
 
 form#payment {
-   animation: dropdown 3s;
+   animation: drop-down 3s;
 }
 
 h1 {
-   animation: slide-right easein 3s;
+   animation: slide-right ease-in 3s;
 }
 
 input#cardBox, input#csc {
