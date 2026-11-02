@@ -13,5 +13,8 @@
 video {
    display: block;
    width: 75%;
-   margin: 1
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
 }
