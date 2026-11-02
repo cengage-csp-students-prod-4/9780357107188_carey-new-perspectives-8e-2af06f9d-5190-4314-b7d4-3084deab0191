@@ -65,3 +65,9 @@ figure figcaption {
    transform: rotate(30deg)
 }
 
+figure:hover {
+   width: 400px;
+   z-index: 2;
+   transition: width 2s;
+}
+
