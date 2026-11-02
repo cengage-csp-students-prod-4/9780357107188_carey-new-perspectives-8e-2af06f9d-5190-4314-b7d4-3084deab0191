@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Create the style rule for `figcaption` elements within the hovered `figure` element.
+Reason: None
+Timestamp: 2026-11-02 20:19:57.505406
