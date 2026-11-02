@@ -89,5 +89,5 @@ div#cube img {
 }
 
 #cube {
-	animation: 3s linear 3s infinite;
+	animation: spinCube 3s linear 3s infinite;
 }
