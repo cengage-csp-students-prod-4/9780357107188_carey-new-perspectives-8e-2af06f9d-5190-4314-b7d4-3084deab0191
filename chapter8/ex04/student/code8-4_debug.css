@@ -22,10 +22,12 @@
 }
 
 form#payment {
+   position: relative;
    animation: drop-down 3s;
 }
 
 h1 {
+   position: relative;
    animation: slide-right ease-in 3s;
 }
 
