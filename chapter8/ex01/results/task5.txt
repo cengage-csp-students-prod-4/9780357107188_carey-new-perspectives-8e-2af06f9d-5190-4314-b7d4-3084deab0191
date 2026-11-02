@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Create the cue in the captions8-1.vtt file.
 Reason: 'Caption' was found in the program output.None
-Timestamp: 2026-11-02 19:52:28.001661
+Timestamp: 2026-11-02 19:54:57.981597
 
 Status: PASSED!
 Check: 1
 Test: Create the cue in the captions8-1.vtt file.
 Reason: 'A High Ollie' was found in the program output.None
-Timestamp: 2026-11-02 19:52:28.001817
+Timestamp: 2026-11-02 19:54:57.981793
 
 Status: PASSED!
 Check: 3
 Test: Create the cue in the captions8-1.vtt file.
 Reason: '00:03.000' was found in the program output.None
-Timestamp: 2026-11-02 19:52:28.001934
+Timestamp: 2026-11-02 19:54:57.981937
 
 Status: PASSED!
 Check: 4
 Test: Create the cue in the captions8-1.vtt file.
 Reason: '00:06.000' was found in the program output.None
-Timestamp: 2026-11-02 19:52:28.002033
+Timestamp: 2026-11-02 19:54:57.982106

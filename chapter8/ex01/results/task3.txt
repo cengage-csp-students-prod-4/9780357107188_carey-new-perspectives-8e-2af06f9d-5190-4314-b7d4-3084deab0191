@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Below the ordered list insert a `video` element with the controls attribute to the `video` element to show player controls.
 Reason: None
-Timestamp: 2026-11-02 19:43:04.788096
+Timestamp: 2026-11-02 19:54:55.672368
 
 Status: PASSED!
 Check: 2
 Test: Add the source files ollie.mp4 and ollie.webm to the video element. Include the `mime-type` for both video files.
 Reason: None
-Timestamp: 2026-11-02 19:43:04.824370
+Timestamp: 2026-11-02 19:54:55.729218
 
 Status: PASSED!
 Check: 3
 Test: Add a track using the contents of the captions8-1.vtt file. Set the value of the kind attribute to captions and add the label Video Captions.
 Reason: None
-Timestamp: 2026-11-02 19:43:04.868468
+Timestamp: 2026-11-02 19:54:55.766201
