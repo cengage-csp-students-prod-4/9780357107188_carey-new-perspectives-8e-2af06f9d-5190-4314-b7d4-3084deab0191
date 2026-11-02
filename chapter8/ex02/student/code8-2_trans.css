@@ -82,3 +82,8 @@ figure:hover figcaption {
    font-size: 1.2em;
    transition: font-size 2s;
 }
+
+#fig1:hover, #fig2:hover, #fig3:hover, #fig4:hover, #fig5:hover, #fig6:hover {
+   transform: rotate(0deg);
+   transition: all 2s;
+}
