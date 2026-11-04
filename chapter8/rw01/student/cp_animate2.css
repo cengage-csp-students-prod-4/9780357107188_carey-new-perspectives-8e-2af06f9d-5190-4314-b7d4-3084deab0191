@@ -54,10 +54,10 @@ div#Marquee table {
 
 /* Animation Styles */
 
-div.marquee table {
+div.Marquee table {
    animation: scroll 50s linear infinite;
 }
 
-div.marquee:hover table {
+div.Marquee:hover table {
    animation-play-state: paused;
 }
