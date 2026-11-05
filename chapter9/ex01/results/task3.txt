@@ -1,41 +1,37 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Declare the `thisDay` variable containing the current date using the `new Date()` command.
-Reason: Assertion failed: Unable to find "var thisDay" in the clock9-1.js file.
-Error : AssertionError - Unable to find "var thisDay" in the clock9-1.js file.
-Timestamp: 2026-11-05 21:45:12.433340
+Reason: None
+Timestamp: 2026-11-05 21:47:38.982951
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Create the `thisDate` variable containing the text string of the current date by applying the `toLocaleDateString()` method to the `thisDay` variable.
-Reason: Assertion failed: Unable to find "var thisDate" in the clock9-1.js file.
-Error : AssertionError - Unable to find "var thisDate" in the clock9-1.js file.
-Timestamp: 2026-11-05 21:45:12.433620
+Reason: None
+Timestamp: 2026-11-05 21:47:38.983074
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Create the `thisDayNum` variable to store the number of the current weekday by applying the `getDay()` method to the `thisDay` variable.
-Reason: Assertion failed: Unable to find "var thisDayNum" in the clock9-1.js file.
-Error : AssertionError - Unable to find "var thisDayNum" in the clock9-1.js file.
-Timestamp: 2026-11-05 21:45:12.433784
+Reason: None
+Timestamp: 2026-11-05 21:47:38.983136
 
 Status: FAILED!
 Check: 4
 Test: Create the `thisWeekday` variable by storing the value returned by the `getWeekday()` function using `thisDayNum` as the function value.
-Reason: Assertion failed: Unable to find "var thisWeekday" in the clock9-1.js file.
-Error : AssertionError - Unable to find "var thisWeekday" in the clock9-1.js file.
-Timestamp: 2026-11-05 21:45:12.433926
+Reason: Assertion failed: Unable to find "thisWeekday = getWeekday(thisDayNum)" in the clock9-1.js file.
+Error : AssertionError - Unable to find "thisWeekday = getWeekday(thisDayNum)" in the clock9-1.js file.
+Timestamp: 2026-11-05 21:47:38.983188
 
-Status: FAILED!
+Status: PASSED!
 Check: 5
 Test: Create the `thisTime` variable containing the text string of the current date by applying the `toLocaleTimeString()` method to the `thisDay` variable.
-Reason: Assertion failed: Unable to find "var thisTime" in the clock9-1.js file.
-Error : AssertionError - Unable to find "var thisTime" in the clock9-1.js file.
-Timestamp: 2026-11-05 21:45:12.434060
+Reason: None
+Timestamp: 2026-11-05 21:47:38.983345
 
 Status: PASSED!
 Check: 6
 Test: Using the `textContent` property, change the text stored in the document element with the ID **date** to the value of the `thisDate` variable, the text stored in the document with element with **wday** ID to the value of the `thisWeekday` variable, and the text stored in the document element with the ID **time** to the value of the `thisTime` variable.
 Reason: None
-Timestamp: 2026-11-05 21:45:12.434192
+Timestamp: 2026-11-05 21:47:38.983397
