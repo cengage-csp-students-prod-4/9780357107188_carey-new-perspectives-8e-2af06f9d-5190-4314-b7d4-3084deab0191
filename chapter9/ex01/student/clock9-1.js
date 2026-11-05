@@ -20,7 +20,8 @@ function getWeekday(dayNum) {
    return wDays[dayNum];
 }
 
-
+runClock();
+setInterval(runClock, 1000);
 
 function runClock() {
    var thisDay = new Date();
