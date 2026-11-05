@@ -16,7 +16,6 @@ var secsLeft = 10;
 
 var clockID = setInterval(countdown, 1000);
 
-
 /* ------------------------------------------------- */
 
 
