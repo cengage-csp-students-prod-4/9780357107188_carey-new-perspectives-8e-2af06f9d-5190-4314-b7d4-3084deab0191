@@ -20,16 +20,18 @@ function getWeekday(dayNum) {
    return wDays[dayNum];
 }
 
+
+
 function runClock() {
-   let thisDay = new Date();
+   var thisDay = new Date();
 
-   let thisDate = thisDay.toLocaleDateString();
+   var thisDate = thisDay.toLocaleDateString();
 
-   let thisDayNum = thisDay.getDay();
+   var thisDayNum = thisDay.getDay();
 
-   let thisWeekday = getweekday(thisDayNum);
+   var thisWeekday = getweekday(thisDayNum);
 
-   let thisTime = thisDay.toLocaleTimeString();
+   var thisTime = thisDay.toLocaleTimeString();
 
    document.getElementById("date").textContent = thisDate;
    document.getElementById("wday").textContent = thisWeekday;
