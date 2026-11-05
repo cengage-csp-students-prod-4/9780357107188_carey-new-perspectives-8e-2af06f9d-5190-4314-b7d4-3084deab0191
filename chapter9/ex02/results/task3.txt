@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Declare and initialize the `secsLeft` variable.
+Reason: None
+Timestamp: 2026-11-05 21:59:45.366780
+
+Status: PASSED!
+Check: 2
+Test: `secsLeft` variable is set to initial value of 10
+Reason: 'secsLeft = 10' was found in the program output.None
+Timestamp: 2026-11-05 21:59:45.367023
