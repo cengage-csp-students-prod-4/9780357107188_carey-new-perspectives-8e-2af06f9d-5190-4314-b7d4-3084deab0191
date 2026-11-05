@@ -12,7 +12,7 @@
 
 */
 
-
+var secsLeft = 10;
 
 
 
