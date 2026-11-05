@@ -29,7 +29,7 @@ function runClock() {
 
    var thisDayNum = thisDay.getDay();
 
-   var thisWeekday = getweekday(thisDayNum);
+   var thisWeekday = getWeekday(thisDayNum);
 
    var thisTime = thisDay.toLocaleTimeString();
 
