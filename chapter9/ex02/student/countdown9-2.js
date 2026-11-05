@@ -35,3 +35,14 @@ function addLeadingZero(num) {
    var numStr = (num < 10) ? ("0" + num) : "" + num;
    return numStr;
 }
+
+
+function countdown() {
+   var secsString = addLeadingZero(secsLeft);
+
+   document.getElementById("seconds").textContent = secsString;
+
+   checkCountdown();
+
+   secsLeft--;
+}
