@@ -6,8 +6,8 @@
    Coding Challenge 2
 
    Countdown Clock
-   Author: 
-   Date:   
+   Author: Jackson Baker
+   Date:   11/5/2026
 
 
 */
