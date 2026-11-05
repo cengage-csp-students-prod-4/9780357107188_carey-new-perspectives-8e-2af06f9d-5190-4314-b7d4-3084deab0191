@@ -3,34 +3,34 @@ Status: PASSED!
 Check: 1
 Test: Declare the `thisDay` variable containing the current date using the `new Date()` command.
 Reason: None
-Timestamp: 2026-11-05 21:48:41.097098
+Timestamp: 2026-11-05 21:52:05.077716
 
 Status: PASSED!
 Check: 2
 Test: Create the `thisDate` variable containing the text string of the current date by applying the `toLocaleDateString()` method to the `thisDay` variable.
 Reason: None
-Timestamp: 2026-11-05 21:48:41.097198
+Timestamp: 2026-11-05 21:52:05.077880
 
 Status: PASSED!
 Check: 3
 Test: Create the `thisDayNum` variable to store the number of the current weekday by applying the `getDay()` method to the `thisDay` variable.
 Reason: None
-Timestamp: 2026-11-05 21:48:41.097244
+Timestamp: 2026-11-05 21:52:05.077973
 
 Status: PASSED!
 Check: 4
 Test: Create the `thisWeekday` variable by storing the value returned by the `getWeekday()` function using `thisDayNum` as the function value.
 Reason: None
-Timestamp: 2026-11-05 21:48:41.097281
+Timestamp: 2026-11-05 21:52:05.078051
 
 Status: PASSED!
 Check: 5
 Test: Create the `thisTime` variable containing the text string of the current date by applying the `toLocaleTimeString()` method to the `thisDay` variable.
 Reason: None
-Timestamp: 2026-11-05 21:48:41.097313
+Timestamp: 2026-11-05 21:52:05.078123
 
 Status: PASSED!
 Check: 6
 Test: Using the `textContent` property, change the text stored in the document element with the ID **date** to the value of the `thisDate` variable, the text stored in the document with element with **wday** ID to the value of the `thisWeekday` variable, and the text stored in the document element with the ID **time** to the value of the `thisTime` variable.
 Reason: None
-Timestamp: 2026-11-05 21:48:41.097348
+Timestamp: 2026-11-05 21:52:05.078196
