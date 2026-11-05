@@ -46,3 +46,9 @@ function countdown() {
 
    secsLeft--;
 }
+
+function stopCountdown() {
+   document.getElementById("Alert").textContent = "Times Up";
+
+   clearInterval(clockID);
+}
