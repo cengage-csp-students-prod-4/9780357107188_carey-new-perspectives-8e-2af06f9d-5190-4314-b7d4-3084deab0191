@@ -14,7 +14,7 @@
 
 function moveHands() {
    var nowTime = new Date();
-}
+
 
 var nowSeconds = nowTime.getSeconds();
 var nowMinutes = nowTime.getMinutes();
@@ -29,7 +29,7 @@ var hoursAngle = nowHours + nowMinutes / 60 + nowSeconds / 3600 * 30;
 rotateHand(secondsAngle, "seconds");
 rotateHand(minutesAngle, "minutes");
 rotateHand(hoursAngle, "hours");
-
+}
 
 /* ------------------------------------------------
 
