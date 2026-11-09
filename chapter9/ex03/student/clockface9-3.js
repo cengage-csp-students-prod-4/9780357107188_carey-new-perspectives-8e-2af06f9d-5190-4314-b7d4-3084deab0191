@@ -6,8 +6,8 @@
    Coding Challenge 3
 
    Clock Face
-   Author: 
-   Date:   
+   Author: Jackson Baker
+   Date:   11/9/2026
 
 
 */
