@@ -13,7 +13,7 @@
 */
 
 showImage()
-setInterval(showImage(), 5000);
+setInterval(showImage, 5000);
 
 function showImage() {
    var slideNumber = randNumber(1, 14);
