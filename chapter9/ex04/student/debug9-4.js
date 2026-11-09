@@ -13,12 +13,12 @@
 */
 
 showImage()
-setInterval(showImage(), 5);
+setInterval(showImage(), 5000);
 
 function showImage() {
    var slideNumber = randNumber(1, 14);
-   document.getelementbyid(slide).src = "slide" + slidenumber + ".jpg";
-   document.getelementbyid(slidecaption).textcontent = getCaption(slidenumber);
+   document.getElementById(slide).src = "slide" + slideNumber + ".jpg";
+   document.getElementById(slideCaption).textContent = getCaption(slideNumber);
 }
 
 
