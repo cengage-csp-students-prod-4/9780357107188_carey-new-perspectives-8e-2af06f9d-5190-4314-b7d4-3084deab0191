@@ -34,7 +34,7 @@ function randNumber(min, max) {
 }
 
 function getCaption(slide) {
-   var captions = new Array(15);
+   var captions = new Array(14);
    captions[1]="Assembling the International Space Station [1998]";
    captions[2]="The Atlantis docks with the ISS [2001]"; 
    captions[3]="The Atlantis approaches the ISS [2000]"; 
