@@ -31,6 +31,11 @@ rotateHand(minutesAngle, "minutes");
 rotateHand(hoursAngle, "hours");
 }
 
+moveHands();
+setInterval(moveHands, 1000);
+
+
+
 /* ------------------------------------------------
 
    The rotateHand() using the transform style to rotate the hand
