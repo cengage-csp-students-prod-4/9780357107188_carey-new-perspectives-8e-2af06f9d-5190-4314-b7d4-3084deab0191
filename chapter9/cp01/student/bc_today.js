@@ -14,7 +14,7 @@ use strict
    student union.
 
 */
-var thisDate = new Date("October 12, 2021");
+var thisDate = new Date("October 19, 2021");
 
 var dateString = thisDate.toLocaleDateString();
 
