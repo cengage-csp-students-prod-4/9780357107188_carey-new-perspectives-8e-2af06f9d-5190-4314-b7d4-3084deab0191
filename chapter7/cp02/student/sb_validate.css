@@ -4,8 +4,8 @@
    Case Problem 2
 
    Spice Bowl Payment Form Validation Style Sheet
-   Author: 
-   Date:   
+   Author: Jackson Baker
+   Date:   11/10/2026
 
    Filename: sb_validate.css
 
@@ -14,3 +14,20 @@
 
 /* Validation Styles */
 
+input:not([type='radio']):focus {
+   background-color: rgb(255, 218, 165);
+}
+
+input:not([type='radio']):focus:valid {
+   background-color: rgb(215, 255, 215);
+   background-image: url(sb_valid.png);
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+input:not([type='radio']):focus:invalid {
+   background-color: rgb(255, 245, 215);
+   background-image: url(sb_invalid.png);
+   background-repeat: no-repeat;
+   background-position: right;
+}
