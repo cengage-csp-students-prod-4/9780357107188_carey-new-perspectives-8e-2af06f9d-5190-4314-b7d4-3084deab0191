@@ -36,3 +36,5 @@ for (let i = 0; i <= 13; i++) {
    htmlCode += "<figcaption>" + captions[i] + "</figcaption>";
    htmlCode += "</figure>";
 }
+
+document.getElementById>("gallery").innerHTML = htmlCode;
