@@ -32,7 +32,7 @@ var htmlCode = "";
 
 for (let i = 0; i <= 13; i++) {
    htmlCode += "<figure>";
-   htmlCode += "<img alt='' src='slide" + i + ".jpg' />";
+   htmlCode += "<img alt=' ' src='slide" + i + ".jpg' />";
    htmlCode += "<figcaption>" + captions[i] + "</figcaption>";
    htmlCode += "</figure>";
 }
