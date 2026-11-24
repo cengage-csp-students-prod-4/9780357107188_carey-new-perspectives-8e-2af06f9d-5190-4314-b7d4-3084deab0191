@@ -28,7 +28,7 @@ captions[11]="The International Space Station second expansion [2006]";
 captions[12]="The International Space Station third expansion [2007]";
 captions[13]="The ISS over the Ionian Sea [2007]";
 
-let htmlCode = "";
+var htmlCode = "";
 
 for (let i = 0; i < 14; i++) {
    htmlCode += "<figure>";
