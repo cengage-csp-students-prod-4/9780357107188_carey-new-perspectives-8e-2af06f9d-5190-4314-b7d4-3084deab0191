@@ -6,8 +6,8 @@
    Coding Challenge 1
 
    Debug
-   Author: 
-   Date:   
+   Author: Jackson Baker
+   Date:   11/24/2026
 
 
 */
