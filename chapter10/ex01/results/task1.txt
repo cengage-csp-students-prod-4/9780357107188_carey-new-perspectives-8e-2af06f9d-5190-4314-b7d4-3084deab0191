@@ -1,6 +1,18 @@
 
 Status: PASSED!
 Check: 1
+Test: Enter your name (First + Last) into the `Author:` field of code1-1.html file.
+Reason: 'Author: {YOUR NAME}' was found in the program output.None
+Timestamp: 2026-11-26 00:29:52.799167
+
+Status: PASSED!
+Check: 2
+Test: "Date" added to comment section of the file code1-1.html in the format MM/DD/YYYY
+Reason: 'Date: {DATE}' was found in the program output.None
+Timestamp: 2026-11-26 00:29:52.799522
+
+Status: PASSED!
+Check: 1
 Test: Create the `htmlCode` variable.
 Reason: 'var htmlCode = ;' was found in the program output.None
-Timestamp: 2026-11-24 20:41:16.408914
+Timestamp: 2026-11-26 00:29:53.986729
