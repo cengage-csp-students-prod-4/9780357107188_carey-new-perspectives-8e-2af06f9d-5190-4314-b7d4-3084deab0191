@@ -11,3 +11,5 @@
 
 
 */
+let thisDay = new Date();
+
