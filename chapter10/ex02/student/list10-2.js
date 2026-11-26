@@ -63,8 +63,7 @@ links[9] = "https://www.imdb.com/title/tt1375666/?ref_=adv_li_tt";
 var htmlCode = "<table><thead><tr><th>Movie</th><th>Description</th><th>Score</th></tr></thead><tbody></tbody></table>";
 
 for (let i = 0; i <= 9; i++) {
-   htmlCode += `<table>
-   <tr>
+   htmlCode += `<table><thead><tr>
    <td><a href="${links[i]}">${titles[i]}</a></td>
    <td></td>
    <td>${summaries[i]}</td>
