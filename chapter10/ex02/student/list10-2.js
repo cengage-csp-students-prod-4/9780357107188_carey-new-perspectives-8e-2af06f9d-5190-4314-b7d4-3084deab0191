@@ -60,4 +60,4 @@ links[7] = "https://www.imdb.com/title/tt0060196/?ref_=adv_li_tt";
 links[8] = "https://www.imdb.com/title/tt0050083/?ref_=adv_li_tt";
 links[9] = "https://www.imdb.com/title/tt1375666/?ref_=adv_li_tt";
 
-var htmlCode="<table><thead><tr><th>Movie</th><th>Description</th><th>Score</th></tr></thead><tbody></tbody></table>"
+var htmlCode = "<table><thead><tr><th>Movie</th><th>Description</th><th>Score</th></tr></thead><tbody></tbody></table>"
