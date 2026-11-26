@@ -14,3 +14,6 @@
 let thisDay = new Date();
 
 let wDay = thisDay.getDay();
+
+let imgSrc = "";
+
