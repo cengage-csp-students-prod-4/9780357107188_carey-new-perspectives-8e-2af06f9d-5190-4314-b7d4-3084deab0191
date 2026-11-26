@@ -74,4 +74,4 @@ for (let i = 0; i <= 9; i++) {
 htmlCode += `</tbody>
 </table>`;
 
-document.getElementById("list").innerHTML = htmlCode;
+document.getElementById("list").innerHTML=htmlCode;
