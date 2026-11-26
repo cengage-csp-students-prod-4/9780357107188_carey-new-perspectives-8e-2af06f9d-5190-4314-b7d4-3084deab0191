@@ -37,4 +37,4 @@ for (var i = 0; i <= 13; i++) {
    htmlCode += "</figure>";
 }
 
-document.getElementById>("gallery").innerHTML = htmlCode;
+document.getElementById>("gallery").innerHTML;
